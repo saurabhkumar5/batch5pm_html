@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    align-items: center;
+    height: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    letter-spacing: 2px;
+}
+
+/* header end */
+
+
+.main-content{
+    display: flex;
+    /* margin-left: 100px; */
+    justify-content: center;
+}
+#sandeep-image{
+    height: 500px;
+    width: 800px;
+}
+.text-content{
+    background-color: rgb(87, 134, 149);
+    align-items: center;
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
